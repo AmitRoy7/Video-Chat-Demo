@@ -19,7 +19,7 @@ let pc;
 
 function onSuccess() {};
 function onError(error) {
-  console.error(error);
+  // console.error(error);
 };
 
 drone.on('open', error => {
